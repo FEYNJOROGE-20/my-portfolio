@@ -335,8 +335,11 @@ a {
 #about .part_2 .image_part {
   flex-basis: 400px;
   width: 100px;
-  height: 300px;
+  height: 400px;
+  border-radius: 2rem;
+  overflow: hidden;
   position: relative;
+  transition: all 0.2s linear;
 }
 #about .part_2 .image_part img {
   width: 100%;
@@ -347,6 +350,10 @@ a {
 }
 #about .part_2 .image_part img:hover {
   filter: grayscale(0);
+  box-shadow: var(--box-shadow);
+}
+
+#about .part_2 .image_part:hover{
   box-shadow: var(--box-shadow);
 }
 
@@ -1355,6 +1362,11 @@ textarea:valid ~ .line1:before {
   #about .part_2 .image_part {
     width: 100%;
     flex-basis: 0;
+    overflow: unset;
+    border-radius: 1rem;
+  }
+  #about .part_2 .image_part img{
+    border-radius: 1rem;
   }
   #about .part_2 .info {
     margin-top: 20px;

@@ -314,5 +314,13 @@
     "info": "The Light of the Quran - Always With You! Read the Quran. Pure. Offline. Without Distractions, Annoying Ads etc.. Dev using React Native with Expo",
     "link": "https://tinyurl.com/Nmushaf2",
     "type": "mobile"
+  },
+  {
+    "id": 49,
+    "screenshot": "images/ciikenya.png",
+    "title": "Community Implementing Initiative",
+    "info": "A Community Based Organization designed to give hope and restore dignity to the girl child and most vulnerable children in the community. Check them out",
+    "link": "https://ciikenya.org",
+    "type": "formal_project"
   }
 ]
